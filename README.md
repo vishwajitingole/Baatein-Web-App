@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Chat Application</title>
+
 </head>
 
 <body>
