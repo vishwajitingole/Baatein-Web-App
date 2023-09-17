@@ -1,22 +1,35 @@
-import React from 'react'
+import React from 'react';
 
-function TheirMessage({lastMessage,message}) {
-  const isFirstMessageByUser=!lastMessage || lastMessage.sender.username!==message.sender.username;
+function TheirMessage({ lastMessage, message }) {
+  const isFirstMessageByUser =
+    !lastMessage || lastMessage.sender.username !== message.sender.username;
 
   return (
-    <div>
-      <div className="message-row">
-        {isFirstMessageByUser && (
-          <div className="message-avater" style={{backgroundImage:message.sender && 'url(${message.sender.avataar})'}}/>
-            
-           
-        )}
+    <div className="message-row">
+      {isFirstMessageByUser && (
+        <div
+          className="message-avatar"
+          style={{
+            backgroundImage: message.sender && `url(${message.sender.avatar})`,
+          }}
+        />
+      )}
 
-          {message.attachment && message.attachments.length >0}
+      {message.attachment && message.attachments.length > 0 && (
+        <img
+          src={message.attachment}
+          alt="Message Attachment"
+          className="message-image"
+        />
+      )}
 
-      </div>
+      {message.text && (
+        <div className="message" style={{ float: 'left', backgroundColor: '#CABCDC' }}>
+          {message.text}
+        </div>
+      )}
     </div>
-  )
+  );
 }
 
-export default TheirMessage
+export default TheirMessage;
