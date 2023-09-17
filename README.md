@@ -7,8 +7,8 @@
 </head>
 
 <body>
-    <h1>Chat Application</h1>
-    <p>Welcome to the Baatein</p>
+    <h1>Baatein</h1>
+    <p>Welcome to the My Chat Application</p>
     <h2>Overview</h2>
     <p>This chat application allows users to communicate with each other in real-time. It's built with <a
             href="https://reactjs.org/">React</a> for the front end and [Backend Framework] for the back end.</p>
