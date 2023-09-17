@@ -24,7 +24,7 @@
     <ol>
         <li>Clone this repository:</li>
     </ol>
-    <code>git clone https://github.com//chat-application.git</code>
+    <code>git clone https://github.com/vishwajit022/Baatein
     <ol start="2">
         <li>Change to the project directory:</li>
     </ol>
