@@ -66,7 +66,7 @@
     <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
     <h2>Contact</h2>
     <p>If you have any questions or issues, please feel free to contact us at <a
-            href="mailto:your-email@example.com">vishwajitingole22@gmail.com</a>.</p>
+            href="mailto:vishwajitingole22@gmail.com">vishwajitingole22@gmail.com</a>.</p>
     <p>Happy chatting!</p>
 </body>
 
