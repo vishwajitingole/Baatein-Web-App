@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
-
 </head>
-
 <body>
     <h1>Baatein</h1>
     <p>Welcome to the My Chat Application</p>
@@ -69,5 +66,4 @@
             href="mailto:vishwajitingole22@gmail.com">vishwajitingole22@gmail.com</a>.</p>
     <p>Happy chatting!</p>
 </body>
-
 </html>
