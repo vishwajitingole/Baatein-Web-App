@@ -284,7 +284,7 @@
     opacity: 0;
     top: 0;
     right: -20px;
-    transition: 0.5s;
+    transition: 2s;
 }
 
 .button:hover span {
