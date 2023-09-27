@@ -44,7 +44,7 @@ const MessageForm = (props) => {
       </label>
       <input
         type="file"
-        multiple={false}
+        multiple={true}
         id="upload-button"
         style={{ display: 'none' }}
         onChange={handleUpload.bind(this)}
