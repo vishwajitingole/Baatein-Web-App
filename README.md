@@ -8,7 +8,7 @@
     <p>Welcome to the My Chat Application</p>
     <h2>Overview</h2>
     <p>This chat application allows users to communicate with each other in real-time. It's built with <a
-            href="https://reactjs.org/">React</a> for the front end and [Backend Framework] for the back end.</p>
+            href="https://reactjs.org/">React</a> for the front end and ChatEngine-API for the back end.</p>
     <h2>Features</h2>
     <ul>
         <li>Real-time messaging</li>
